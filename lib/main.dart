@@ -34,7 +34,7 @@ Future<http.Response> processImg(img) async {
     Uri.parse('https://api.openai.com/v1/chat/completions'),
     headers: <String, String>{
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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'
+      'Authorization': 'Bearer '
     },
     body: jsonEncode({
      'model': 'gpt-4-vision-preview',
